@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -143,4 +147,96 @@ button {
 }
 .game-title {
   white-space: pre;
+}
+.game-text {
+  margin-right: 50px;
+  text-align: justify;
+}
+.up-button {
+  position: fixed;
+  z-index: 1;
+  padding: 0;
+  bottom: 75px;
+  right: 20px;
+  width: 64px;
+  height: 64px;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  border: 5px solid;
+  border-radius: 50%;
+  display: none;
+  cursor: pointer;
+  color: #6653d9;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: #6653d9;
+  outline-color: #b6aaff;
+}
+
+.up-button:hover {
+  color: #473c8d;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: #473c8d;
+}
+
+.shown {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+.sidebar {
+  position: fixed;
+  width: 30%;
+  transform: skewY(-6deg);
+  transform-origin: top left;
+  margin-left: 35px;
+  top: 64px;
+  right: 20px;
+  bottom: 0;
+  max-width: 260px;
+  width: 100%;
+}
+.sidebar-nav {
+  background-color: rgb(42, 105, 241);
+}
+.sidebar-menu {
+  margin: 0;
+  border-top: none;
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-manu-link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 22px;
+  color: #fff6f6;
+  text-shadow: 1px 1px black;
+  padding: 16px 48px;
+  display: inline-block;
+  width: 100%;
+}
+.sidebar-manu-link:hover {
+  background-color: #080700;
+}
+.sidebar-manu-link.active {
+  background-color: #0f0d00;
+  border-right: 3px solid #faad14;
+}
+.content {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.char-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.characters-avatar {
+  max-width: 700px;
+  max-height: 500px;
 }
