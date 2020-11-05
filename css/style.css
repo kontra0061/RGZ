@@ -241,6 +241,9 @@ a {
   margin: auto;
   margin-bottom: 50px;
 }
+.text-persona-5{
+	color: rgb(199, 199, 199);
+}
 .char-card {
   display: flex;
   align-items: center;
