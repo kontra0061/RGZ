@@ -17,6 +17,9 @@ button {
 .persona-5-body-color{
 	background-color: #7a0403
 }
+.text-persona-5{
+	color: #b5b5b5;
+}
 .container {
 	max-width: 1200px;
 	margin: auto;
