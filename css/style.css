@@ -14,7 +14,7 @@ button {
 	cursor: pointer;
 	color: inherit;
 }
-.persona-5-body-color{
+.persona-5-body{
 	background-color: #7a0403;
 	background-image: url("../img/Persona5 Background.png");
 	background-attachment: fixed;
