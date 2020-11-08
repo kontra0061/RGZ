@@ -15,7 +15,9 @@ button {
 	color: inherit;
 }
 .persona-5-body-color{
-	background-color: #7a0403
+	background-color: #7a0403;
+	background-image: url("../img/Persona5 Background.png");
+	background-attachment: fixed;
 }
 .text-persona-5{
 	color: #b5b5b5;
@@ -39,7 +41,7 @@ button {
 	height: 150px;
 }
 .header-p-5{
-	background-color: rgb(48, 0, 0);;
+	background-color: #e90000;
 }
 .logo {
 	width: 150px;
