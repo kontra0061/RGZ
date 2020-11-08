@@ -259,6 +259,9 @@ a {
 	max-width: 700px;
 	max-height: 500px;
 }
+.characters-avatar-p5{
+	margin-bottom: -16px;
+}
 li::marker {
 	color: blue;
 }
