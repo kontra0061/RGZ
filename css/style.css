@@ -286,7 +286,7 @@ p {
 .story-image-p5 {
 	float: right;
 	border-radius: 10px;
-	box-shadow: 5px 5px black;
+	box-shadow: 5px 5px red;
 	margin-left: 20px;
 	width: 250px;
 }
