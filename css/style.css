@@ -283,6 +283,13 @@ p {
 	margin-left: 20px;
 	width: 250px;
 }
+.story-image-p5 {
+	float: right;
+	border-radius: 10px;
+	box-shadow: 5px 5px black;
+	margin-left: 20px;
+	width: 250px;
+}
 p {
 	text-align: justify;
 }
