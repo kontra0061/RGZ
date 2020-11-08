@@ -14,7 +14,7 @@ button {
   cursor: pointer;
   color: inherit;
 }
-.persona-5-body{
+.persona-5-body-color{
 	background-color: #7a0404
 }
 .container {
@@ -34,7 +34,7 @@ button {
   background-color: rgb(255, 255, 255);
   height: 150px;
 }
-.header-persona-5{
+.header-p-5{
 	background-color: rgb(48, 0, 0);;
 }
 .logo {
@@ -206,7 +206,7 @@ a {
 .sidebar-nav {
   background-color: rgb(42, 105, 241);
 }
-.sidebar-nav-5 {
+.sidebar-nav-persona-5 {
   background-color: rgb(184, 9, 9);
 }
 .sidebar-menu {
