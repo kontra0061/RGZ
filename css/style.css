@@ -266,6 +266,11 @@ a {
 	margin-bottom: -16px;
 	margin-right: 50px;
 }
+.video-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 li::marker {
 	color: blue;
 }
