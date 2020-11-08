@@ -94,8 +94,8 @@ openingsSid.addEventListener('click',function () {
     sidebarFacts.classList.remove("active");
   characters.classList.add("hide");
 story.classList.add("hide");
-games.classList.remove("hide");
-openings.classList.add("hide");
+games.classList.add("hide");
+openings.classList.remove("hide");
   personas.classList.add("hide");
   facts.classList.add("hide");
  
