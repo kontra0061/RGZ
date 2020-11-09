@@ -41,12 +41,7 @@ upButton.onclick = function () {
 
 function init() {
   
-  teddie.addEventListener('click', function () {
-    teddie1.classList.toggle("hide")
-teddie2.classList.toggle("hide")
-  }
-    
-  )
+
 
 charactersSid.addEventListener('click',
   function () {sidebarChar.classList.add("active");
