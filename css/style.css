@@ -132,6 +132,12 @@ button {
 	padding: 40px;
 	margin-bottom: 10px;
 }
+.image-game-p5{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+}
 .p3-heading {
 	background-color: rgb(67, 106, 231);
 	border-radius: 50px;
