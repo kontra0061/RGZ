@@ -14,12 +14,17 @@ button {
 	cursor: pointer;
 	color: inherit;
 }
-.persona-5-body{
+.persona-4-body {
+	background-image: url('../img/persona4-background.jpg');
+	background-attachment: fixed;
+	color: white;
+}
+.persona-5-body {
 	background-color: #7a0403;
-	background-image: url("../img/Persona5 Background.png");
+	background-image: url('../img/Persona5 Background.png');
 	background-attachment: fixed;
 }
-.text-persona-5{
+.text-persona-5 {
 	color: #b5b5b5;
 }
 .container {
@@ -40,7 +45,7 @@ button {
 	background-color: rgb(255, 255, 255);
 	height: 150px;
 }
-.header-p-5{
+.header-p-5 {
 	background-color: #e90000;
 }
 .logo {
@@ -124,15 +129,41 @@ button {
 	align-items: center;
 	margin-bottom: 44px;
 }
-.border-persona-5 {
-	background-color: rgba(0, 0, 0, .9);
+.border-persona-3 {
+	background-color: rgb(67, 106, 231);
 	border-radius: 20px;
 	border-style: solid;
-	border-color: rgba(255, 255, 255, .9);
+	border-color: rgba(0, 0, 0, 0.9);
+	padding: 40px;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+.border-persona-4 {
+	background-color: rgb(83, 77, 51);
+	border-radius: 20px;
+	border-style: solid;
+	border-color: rgba(0, 0, 0, 0.9);
+	padding: 40px;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+.border-persona-5 {
+	background-color: rgba(0, 0, 0, 0.9);
+	border-radius: 20px;
+	border-style: solid;
+	border-color: rgba(255, 255, 255, 0.9);
 	padding: 40px;
 	margin-bottom: 10px;
 }
-.image-game-p5{
+.image-game-p3 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid;
+	border-radius: 20px;
+	width: 500px;
+}
+.image-game-p5 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -227,7 +258,7 @@ a {
 	background-color: rgb(42, 105, 241);
 }
 .sidebar-nav-persona-5 {
-  background-color: rgb(184, 9, 9);
+	background-color: rgb(184, 9, 9);
 }
 .sidebar-menu {
 	margin: 0;
@@ -268,14 +299,17 @@ a {
 	max-width: 700px;
 	max-height: 500px;
 }
-.characters-avatar-p5{
+.characters-avatar-p3 {
+	margin-right: 50px;
+}
+.characters-avatar-p5 {
 	margin-bottom: -16px;
 	margin-right: 50px;
 }
 .video-center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 li::marker {
 	color: blue;
@@ -287,6 +321,11 @@ p {
 	margin-inline-start: 0px;
 	margin-inline-end: 0px;
 }
+.story-header {
+	width: 500px;
+	margin-left: 350px;
+}
+
 .story-image {
 	float: right;
 	border-radius: 10px;

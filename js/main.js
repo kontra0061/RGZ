@@ -16,7 +16,11 @@ let sidebarStory =document.querySelector( '.sidebar-story');
 let sidebarGames =document.querySelector( '.sidebar-games');
 let sidebarOp =document.querySelector( '.sidebar-op');
 let sidebarPers =document.querySelector( '.sidebar-pers');
-let sidebarFacts =document.querySelector( '.sidebar-facts');
+let sidebarFacts = document.querySelector('.sidebar-facts');
+let teddie = document.querySelector('#teddie');
+let teddie1 = document.querySelector('.teddie-1');
+let teddie2 = document.querySelector('.teddie-2');
+
 
 
 
@@ -35,7 +39,9 @@ upButton.onclick = function () {
   window.scrollTo(0, 0);
 };
 
-function init(){
+function init() {
+  
+
 
 charactersSid.addEventListener('click',
   function () {sidebarChar.classList.add("active");
