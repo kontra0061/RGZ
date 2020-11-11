@@ -342,6 +342,15 @@ p {
 	margin-bottom: 10px;
 	width: 250px;
 }
+.button {
+  padding: 10px;
+  color: black;
+  border-radius: 3px;
+  background: rgb(102, 0, 0);
+  box-shadow: 5px 5px rgb(64, 0, 0);
+} 
+.button:hover { background: rgb(64, 0, 0); }
+
 p {
 	text-align: justify;
 }
