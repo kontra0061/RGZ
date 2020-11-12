@@ -44,6 +44,7 @@ button {
 	margin-bottom: 40px;
 	background-color: rgb(255, 255, 255);
 	height: 150px;
+	border: 5px solid #000000;
 }
 .header-p-5 {
 	background-color: #e90000;
@@ -168,7 +169,6 @@ button {
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 20px;
-	width: 500px;
 }
 .p3-heading {
 	background-color: rgb(67, 106, 231);
@@ -311,6 +311,7 @@ a {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 20px;
 }
 li::marker {
 	color: blue;
@@ -334,23 +335,20 @@ p {
 	margin-left: 20px;
 	width: 250px;
 }
+.story-image-4 {
+	float: right;
+	border-radius: 10px;
+	box-shadow: 5px 5px rgb(255, 238, 0);
+	margin-left: 20px;
+	width: 250px;
+}
 .story-image-p5 {
 	float: right;
 	border-radius: 10px;
 	box-shadow: 5px 5px red;
 	margin-left: 20px;
-	margin-bottom: 10px;
 	width: 250px;
 }
-.button {
-  padding: 10px;
-  color: black;
-  border-radius: 3px;
-  background: rgb(102, 0, 0);
-  box-shadow: 5px 5px rgb(64, 0, 0);
-} 
-.button:hover { background: rgb(64, 0, 0); }
-
 p {
 	text-align: justify;
 }
