@@ -25,6 +25,7 @@ let teddie2 = document.querySelector('.teddie-2');
 
 
 
+
 window.onscroll = function () {
   if (window.pageYOffset > 200) {
     upButton.classList.add('shown');
@@ -38,9 +39,9 @@ upButton.onclick = function () {
   window.scrollTo(0, 0);
 };
 
-
-
 function init() {
+  
+
 
 charactersSid.addEventListener('click',
   function () {sidebarChar.classList.add("active");
