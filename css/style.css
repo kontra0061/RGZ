@@ -24,6 +24,15 @@ button {
 .button:hover {
 	background: rgb(64, 0, 0);
 }
+.button-spoiler {
+	margin-top: 20px;
+}
+.persona-3-body {
+	background-image: url('../img/persona3-background.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
 .persona-4-body {
 	background-image: url('../img/persona4-background.jpg');
 	background-attachment: fixed;
@@ -179,7 +188,6 @@ button {
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 20px;
-	width: 500px;
 }
 .p3-heading {
 	background-color: rgb(67, 106, 231);
@@ -268,6 +276,9 @@ a {
 }
 .sidebar-nav {
 	background-color: rgb(42, 105, 241);
+}
+.sidebar-nav-4 {
+	background-color: #f7bf07;
 }
 .sidebar-nav-persona-5 {
 	background-color: rgb(184, 9, 9);
