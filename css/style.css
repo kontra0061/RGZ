@@ -188,6 +188,7 @@ button {
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 20px;
+	width: 500px;
 }
 .p3-heading {
 	background-color: rgb(67, 106, 231);
