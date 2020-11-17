@@ -375,3 +375,14 @@ p {
 p {
 	text-align: justify;
 }
+.All-out {
+	width: 800px;
+	height: 500px;
+	border-radius: 50px;
+}
+.switch-img {
+	text-align: center;
+}
+.switch {
+	color: red;
+}
