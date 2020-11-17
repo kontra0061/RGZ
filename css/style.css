@@ -74,7 +74,7 @@ button {
 }
 .logo:hover {
 	width: 200px;
-	height: 150px;
+	height: 145px;
 	margin: 0;
 	padding: 0;
 }
@@ -87,11 +87,12 @@ button {
 .promo {
 	box-shadow: 0 7px 12px rgba(158, 158, 163, 0.1);
 	border-radius: 10px;
-	padding: 68px 70px;
+
 	margin-bottom: 56px;
 }
 .persona-3-promo {
 	background: url(../img/promo/per-3-promo.jpg) no-repeat right / 1200px;
+	padding: 83px 70px;
 }
 .h-persona-3 {
 	color: rgb(67, 106, 231);
@@ -101,6 +102,7 @@ button {
 .persona-4-promo {
 	background: url(../img/promo/per-4-promo.jpg) no-repeat;
 	background-size: cover;
+	padding: 68px 70px;
 }
 .h-persona-4 {
 	color: #ffffff;
@@ -109,6 +111,7 @@ button {
 
 .persona-5-promo {
 	background: url(../img/promo/per-5-promo.jpg) no-repeat top -100px right 0 / 1200px;
+	padding: 68px 70px;
 }
 .h-persona-5 {
 	color: #ffffff;
@@ -121,6 +124,7 @@ button {
 .persona-q-promo {
 	background: url(../img/promo/per-q-promo.jpg) no-repeat;
 	background-size: auto;
+	padding: 46px 70px;
 }
 .promo-title {
 	font-style: normal;
